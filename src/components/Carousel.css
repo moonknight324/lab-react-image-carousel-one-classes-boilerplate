@@ -1,1 +1,44 @@
 /* write your carousel css in this file */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.left-arrow {
+  position: relative;
+  left: 56px;
+  background: transparent;
+  border: none;
+  color: white;
+}
+.right-arrow {
+  position: relative;
+  right: 56px;
+  background: transparent;
+  border: none;
+  color: white;
+  
+}
+button{
+    background-color: black;
+    position: relative;
+    top: 50%;
+    color: white;
+    border: none;
+    padding: 13px;
+}
+
+.info{
+  display: flex;
+  justify-content:unsafe
+}
+
+.img{
+  width: 370px;
+  height: 580px;
+}
+
+.title,.subtitle{
+  margin-bottom: 20px;
+  color:white;
+  text-align: center;
+}
